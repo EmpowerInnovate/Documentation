@@ -12,7 +12,7 @@ This document defines the standards and best practices for contributing to the p
     - **type**: feat, fix, docs, refactor, test
     - **scope**: module or component name (optional)
     - **description**: short explanation in present tense
-  - Example: `fix(auth): Added images in mountpath dir`
+  - Example: `fix(add): Added images in mountpath dir`
 
 - **Commit Practices**
   - Keep commits focused on a single purpose.
@@ -48,11 +48,11 @@ This document defines the standards and best practices for contributing to the p
 - **Branch Naming Convention**
   - Use lowercase with hyphens.
   - Format: `<type>/<short-description>`
-    - **type** examples: `feature`, `fix`, `docs`, `chore`
-    - Example: `feature/user-authentication` or `fix/payment-bug`
+    - **type** examples: `feature`, `fix`, `docs`
+    - Example: `feature/adding-image-upload-button` or `fix/slownessFix`
 
 - **Best Practices**
-  - Always branch out from the latest `main` or `develop` branch.
+  - Always branch out from the latest `master` or `develop` branch.
   - Keep branches small and purpose-driven.
   - Delete branches after merging to keep repository clean.
 
